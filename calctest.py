@@ -15,7 +15,7 @@ def keydown(names):
                 rnum.set("error")
         elif names == "AC":
             rnum.set("")
-        #文字列の一番右側の文字を削除 !要検証
+        #文字列の一番右側の文字を削除 !要修正
         elif names == "EL":
             rnum.set(rnum.get().rstrip(rnum.get()[-1]))
         #+/-の切り替え
