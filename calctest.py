@@ -3,7 +3,7 @@ from tkinter import ttk
 from tkinter import font
 
 
-#ボタン押したときのコマンド
+#ボタン押したときのコマンド !要検証
 def keydown(names):
     def rkeydown():
         if names == "=":
